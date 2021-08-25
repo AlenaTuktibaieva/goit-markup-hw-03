@@ -242,6 +242,10 @@ img {
 }
 
 /* Команда */
+.section .team {
+  padding-bottom: 94px;
+}
+
 .team {
   background: #f5f4fa;
   display: flex;
