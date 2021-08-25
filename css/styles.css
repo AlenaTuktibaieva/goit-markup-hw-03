@@ -300,6 +300,10 @@ img {
   font-style: normal;
 }
 
+.address-list {
+  padding-bottom: 60px;
+}
+
 .address-list .item {
   margin-top: 9px;
 }
@@ -350,6 +354,11 @@ img {
 .filter .current {
   background-color: #2196f3;
   color: #ffffff;
+}
+
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio {
