@@ -49,7 +49,6 @@ img {
 
 .logo {
   margin-right: 93px;
-
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
@@ -87,7 +86,6 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -107,7 +105,6 @@ img {
 .contacts .link {
   padding-top: 32px;
   padding-bottom: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -138,7 +135,6 @@ img {
 
 .hero-title {
   margin: auto;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -151,7 +147,6 @@ img {
 /* Button */
 .btn {
   margin-top: 30px;
-
   background-color: #2196f3;
   color: var(--fourth-text-color);
   font-weight: 700;
@@ -172,6 +167,7 @@ img {
 
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -183,6 +179,10 @@ img {
 }
 
 /* Преимущества */
+.section-feature {
+  padding-top: 94px;
+}
+
 .feature {
   display: flex;
 }
@@ -210,7 +210,6 @@ img {
 
 .feature .title {
   margin-bottom: 10px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -242,10 +241,6 @@ img {
 }
 
 /* Команда */
-.section .team {
-  padding-bottom: 94px;
-}
-
 .team {
   background: #f5f4fa;
   display: flex;
@@ -254,7 +249,6 @@ img {
 .team .card {
   background: #ffffff;
   width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -287,10 +281,8 @@ img {
 .footer {
   background: #2f303a;
   margin: auto;
-}
-
-.footer > .container {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-studio {
@@ -305,10 +297,10 @@ img {
 }
 
 .address-list {
-  padding-bottom: 60px;
+  margin-top: 9px;
 }
 
-.address-list .item {
+.address-list .item:last-child {
   margin-top: 9px;
 }
 
@@ -328,11 +320,15 @@ img {
 .filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter .item:not(:last-child) {
   margin-right: 8px;
+}
+
+.filter .item {
+  padding-bottom: 6px;
 }
 
 .filter-btn {
@@ -374,17 +370,19 @@ img {
 
 .portfolio-container {
   background: #ffffff;
-  border-bottom: 1px solid #eeeeee;
-
   flex-basis: calc(100% / 3 - 30px);
-
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.portfolio-item-title {
-  margin-top: 20px;
+.portfolio-text {
+  padding: 0px 24px 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
 
+.portfolio-item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -394,7 +392,6 @@ img {
 
 .portfolio-item-text {
   margin-top: 4px;
-
   font-size: 16px;
   line-height: 1.88;
   color: var(--fifth-text-color);
