@@ -327,10 +327,6 @@ img {
   margin-right: 8px;
 }
 
-.filter .item {
-  padding-bottom: 6px;
-}
-
 .filter-btn {
   font-weight: 500;
   font-size: 16px;
@@ -376,7 +372,7 @@ img {
 }
 
 .portfolio-text {
-  padding: 0px 24px 20px 24px;
+  padding: 20px 24px 20px 24px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
